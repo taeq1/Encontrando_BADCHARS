@@ -21,7 +21,7 @@ int main(void)
 	fputs(ret,arquivo);
 	for(i=0;i<=0XFF;i++)
 	{
-		if(i == 0x0) continue; //if(i == 0x0a) continue; e assim sucessivamente..
+		if(i == 0x0) continue; //if(i == 0x0a) 
 		fwrite(&i,1,1,arquivo);
 	}
 
